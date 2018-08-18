@@ -2,7 +2,7 @@ module.exports = {
     title: 'Fabric.js',
     serviceWorker: true,
     lang: 'zh-CN',
-    base: 'fabricjs.cn',
+    base: '/fabricjs.cn/',
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
