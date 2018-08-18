@@ -1,0 +1,15 @@
+{
+  "name": "fabricjs.cn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev:docs": "vuepress dev docs",
+    "build:docs": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC"
+}
