@@ -21,11 +21,11 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "258af51e05fa670a5a5c0abebfaf3d56"
+    "revision": "eb828b1c791ecf35b426f6acb716a1c8"
   },
   {
-    "url": "assets/css/0.styles.954ac025.css",
-    "revision": "238a66725e34e1e4979ba5a63265277e"
+    "url": "assets/css/0.styles.c57360c9.css",
+    "revision": "5815ad49a8123dd746c6f75b6c7d9ee2"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -44,20 +44,12 @@ self.__precacheManifest = [
     "revision": "1489cc62ab2da6e2f6df77feb85d2fc9"
   },
   {
-    "url": "assets/js/app.23a5a86e.js",
-    "revision": "c041027a323dbe7a7f570a2d17479541"
-  },
-  {
-    "url": "favicon-16x16.png",
-    "revision": "4bb1a55479d61843b89a2fdafa7849b3"
-  },
-  {
-    "url": "favicon-32x32.png",
-    "revision": "98b614336d9a12cb3f7bedb001da6fca"
+    "url": "assets/js/app.c8cd649a.js",
+    "revision": "70823212593173846fce707b541c0f0f"
   },
   {
     "url": "index.html",
-    "revision": "32d7ea2b20e3bbc42d2c6ee952134f41"
+    "revision": "1f9c8f77c9eb1a38790622167400f952"
   },
   {
     "url": "screenshot.png",
