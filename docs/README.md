@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /screenshot.png
-actionText: 快速上手 →
-actionLink: /zh/guide/
+actionText: 快速上手
+actionLink: /tutorial/
 description: 一个可以SVG与Canvas互转的Canvas库
 features:
 - title: 简洁强大

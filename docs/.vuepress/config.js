@@ -10,18 +10,41 @@ module.exports = {
             { text: '文档', link: '/doc/' },
             { text: 'Demo', link: '/demo/' },
             { text: 'GitHub', link: 'https://github.com/fabricjs/fabric.js' },
-        ]
+        ],
+        sidebar: {
+            '/tutorial/': genSidebarConfig('指南')
+        }
     },
-    head:[
+    head: [
         ['link', { rel: 'icon', href: `/favicon.ico` }],
-        ['link', { rel: 'shortcut icon', href: `/favicon.ico`,type:'image/x-icon' }]
+        ['link', { rel: 'shortcut icon', href: `/favicon.ico`, type: 'image/x-icon' }]
     ],
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
         '/': {
-          lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
-          title: 'Fabric.js',
+            lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
+            title: 'Fabric.js',
         }
-      }
+    }
 }
+
+function genSidebarConfig (title) {
+    return [
+      {
+        title,
+        collapsable: false,
+        children: [
+          '',
+          'getting-started',
+        //   'basic-config',
+        //   'assets',
+        //   'markdown',
+        //   'using-vue',
+        //   'custom-themes',
+        //   'i18n',
+        //   'deploy'
+        ]
+      }
+    ]
+  }
